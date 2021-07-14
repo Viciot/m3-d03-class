@@ -3,8 +3,6 @@ import React from 'react'
 const studentsList = ['Morgane', 'Miki', 'Sebas', 'Raul','Lau', 'Victor', 'Danny']
 const JSXstudentsList = [<li>Morgane</li>, <li>Miki</li>, <li>Sebas</li>, <li>Raul</li>, <li>Lau</li>, <li>Victor</li>, <li>Danny</li>]
 
-const emptyArray = []
-
 export default function StudentsList(){
 return(
 <div className= 'list'>
